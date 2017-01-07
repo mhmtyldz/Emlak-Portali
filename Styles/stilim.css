@@ -1,0 +1,717 @@
+﻿@charset "utf-8";
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+#dis_alan {
+    height: auto;
+    width: 970px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#banner {
+    background-image: url('../images/bg_banner.jpg');
+    height: 58px;
+    width: 970px;
+}
+
+#kullanici_alani {
+    background-color: #FFF;
+    height: 125px;
+    width: 970px;
+}
+
+#logo {
+    height: 99px;
+    width: 316px;
+    background-image: url('../images/logo_icon.png');
+    float: left;
+}
+
+#kul_orta {
+    float: left;
+    height: 105px;
+    width: 405px;
+}
+
+#butonlar {
+    background-image: url('../images/bg_button.PNG');
+    height: 161px;
+    width: 970px;
+}
+
+#daire_buton {
+    float: left;
+    height: 161px;
+    width: 240px;
+}
+
+#daire_icon {
+    height: 130px;
+    width: 240px;
+}
+
+#daire_satilik {
+    height: 31px;
+    width: 240px;
+}
+
+#isyeri_satilik {
+    height: 31px;
+    width: 250px;
+}
+
+#icon_isyeri {
+    height: 33px;
+    width: 80px;
+    margin-left: 90px;
+    padding-top: 45px;
+}
+
+
+#icon_ev {
+    height: 37px;
+    width: 83px;
+    margin-left: 60px;
+    padding-top: 28px;
+}
+
+#isyeri_icon {
+    height: 130px;
+    width: 250px;
+}
+
+
+
+
+#isyeri_buton {
+    float: left;
+    height: 161px;
+    width: 250px;
+}
+
+#arsa_buton {
+    height: 161px;
+    width: 245px;
+    float: left;
+}
+
+#arsa_icon {
+    height: 130px;
+    width: 245px;
+}
+
+#arsa_satilik {
+    height: 31px;
+    width: 245px;
+}
+
+#icon_arsa {
+    height: 44px;
+    width: 80px;
+    margin-left: 83px;
+    padding-top: 40px;
+}
+
+
+
+#otel_buton {
+    height: 161px;
+    width: 223px;
+    float: left;
+}
+
+#otel_icon {
+    height: 130px;
+    width: 225px;
+}
+
+#icon_otel {
+    height: 35px;
+    width: 85px;
+    margin-left: 83px;
+    padding-top: 40px;
+}
+
+#vitrin {
+    height: 230px;
+    width: 970px;
+}
+
+#vitrin_ust {
+    background-color: #000;
+    height: 10px;
+    width: 970px;
+}
+
+.vitrin_ilan {
+    float: left;
+    height: 205px;
+    width: 146px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 36px;
+}
+
+.vitrin_resim {
+    height: 96px;
+    width: 140px;
+    border: medium groove #333;
+}
+
+#vitrin_baslik {
+}
+
+#footer {
+}
+
+
+.sat {
+}
+
+.fiyat {
+}
+
+.ilce {
+}
+
+
+
+
+
+
+
+.satilik {
+    float: left;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    color: #F90;
+    margin-left: 35px;
+}
+
+.satilik_isyeri {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 10px;
+    color: #F90;
+    float: left;
+    font-weight: bold;
+    margin-left: 29px;
+}
+
+.satilik_arsa {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    color: #F90;
+    float: left;
+    margin-left: 44px;
+}
+
+.satilik_otel {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    float: left;
+    margin-left: 25px;
+    color: #F90;
+}
+
+
+
+
+#otel_buton {
+    height: 31px;
+    width: 225px;
+}
+
+#otel_satilik {
+    height: 31px;
+    width: 225px;
+}
+
+
+
+
+
+
+
+
+
+#kul_sag {
+    float: left;
+    height: 125px;
+    width: 249px;
+    padding-top: 15px;
+}
+
+#kul_giris {
+    height: 120px;
+    width: 249px;
+    padding-bottom: 5px;
+}
+
+
+}
+
+#kul_bilgi {
+    height: 120px;
+    width: 249px;
+    padding-bottom: 5px;
+}
+
+.kul_satir {
+    width: 249px;
+    height: 22px;
+    padding-top: 2px;
+}
+
+.kul_sutun1 {
+    width: 80px;
+    float: left;
+    height: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #333333;
+    font-size: 13px;
+}
+
+.kul_sutun2 {
+    width: 169px;
+    float: left;
+    height: 19px;
+}
+
+.kul_sutun3 {
+    width: 80px;
+    float: left;
+    height: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 11px;
+    text-decoration: none;
+}
+
+
+.sat {
+    height: 20px;
+    width: 146px;
+    padding-top: 5px;
+    text-align: center;
+    font-family: Verdana, Geneva, sans-serif;
+    font-weight: bold;
+    color: #F00;
+    font-size: 12px;
+}
+
+.fiyat {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    color: #FFF;
+    width: 146px;
+    height: 14px;
+    background-color: #333;
+}
+
+.ilce {
+    font-family: Verdana, Geneva, sans-serif;
+    text-align: center;
+    font-size: 12px;
+    height: 18px;
+    width: 146px;
+    border-top-width: thin;
+    border-top-style: dotted;
+    border-top-color: #666;
+}
+
+#vitrin_baslik {
+    font-family: Verdana, Geneva, sans-serif;
+    height: 20px;
+    width: 970px;
+    padding-top: 5px;
+    text-align: center;
+    font-weight: normal;
+    background-color: #F90;
+}
+
+#footer {
+    height: 29px;
+    width: 970px;
+    color: #FFF;
+    text-align: center;
+    padding-top: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #0e0e10;
+}
+
+.temizle {
+    clear: both;
+}
+
+
+.sol {
+    width: 150px;
+    height: auto;
+    float: left;
+    background-image: url(../images/reklam.jpg);
+}
+
+.orta {
+    width: 670px;
+    height: auto;
+    float: left;
+    background-image: url(../images/4.PNG);
+}
+
+.sag {
+    width: 150px;
+    height: auto;
+    float: left;
+    background-image: url(../images/reklam.jpg);
+}
+
+.banner_sol {
+    height: 58px;
+    width: 820px;
+    float: left;
+}
+
+
+
+.banner_sag {
+    height: 58px;
+    float: left;
+    width: 150px;
+}
+
+
+.Uyeol_satir {
+    width: 670px;
+    height: 33px;
+}
+
+.Uyeol_satir2 {
+    width: 670px;
+    height: 125px;
+}
+
+.uyeol_sol {
+    height: auto;
+    width: 150px;
+    float: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    color: #3366FF;
+}
+
+.uyeol_orta {
+    height: auto;
+    width: 200px;
+    float: left;
+}
+
+.uyeol_sag {
+    height: auto;
+    width: 320px;
+    float: left;
+}
+
+.hata_mesaj {
+    font-weight: bold;
+    font-family: Arial;
+    font-size: 12px;
+    color: #650505;
+}
+
+.Sifremi_unuttum {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #FFF;
+    font-weight: bold;
+    padding-left: 150px;
+    padding-bottom: 20px;
+    background-color: #808080;
+}
+
+#profil_butonlar {
+    width: 670px;
+    height: 25px;
+    padding-bottom: 20px;
+}
+
+}
+
+#profil_butonlar ul {
+    list-style-type: none;
+}
+
+}
+
+#profil_butonlar ul li {
+    float: left;
+    list-style-type: none;
+}
+
+    #profil_butonlar ul li a {
+        width: auto;
+        height: 25px;
+        font-family: Arial,Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 16px;
+        color: #0000FF;
+        margin-left: 30px;
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        text-decoration: none;
+        list-style-type: none;
+    }
+
+        #profil_butonlar ul li a:hover {
+            color: #000;
+            text-decoration: none;
+            list-style-type: none;
+        }
+
+#profil_resim {
+    width: auto;
+    height: 150px;
+    padding-left: 230px;
+    padding-top: 60px;
+    padding-bottom: 10px;
+}
+
+#profil_adsoyad {
+    padding-left: 230px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #333333;
+    font-weight: bold;
+}
+
+#profil_il {
+    padding-left: 230px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #0066FF;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+
+.profil_satir {
+    padding-left: 200px;
+    padding-bottom: 30px;
+}
+
+.profil_satir1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    color: #232323;
+    float: left;
+    height:16px;
+    width: 70px;
+    border-bottom-style: dotted;
+    border-bottom-width: thin;
+    border-bottom-color: #C0C0C0;
+}
+
+.profil_satir2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: #232323;
+    float: left;
+    width: 350px;
+    height: 16px;
+    border-bottom-style: dotted;
+    border-bottom-width: thin;
+    border-bottom-color: #C0C0C0;
+}
+
+.profil_satir3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    color: #232323;
+    float: left;
+    width: 70px;
+    height:30px;
+    border-bottom-style: dotted;
+    border-bottom-width: thin;
+    border-bottom-color: #C0C0C0;
+}
+
+
+.profil_satir4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: #232323;
+    float: left;
+    width: 350px;
+    height: 30px;
+    border-bottom-style: dotted;
+    border-bottom-width: thin;
+    border-bottom-color: #C0C0C0;
+}
+
+#orta_ekle{
+    width:132px;
+    height:85px;
+    float:left;
+    padding-top:20px;
+    
+}
+
+#orta_yazi{
+    width:250px;
+    height:45px;
+    float:left;
+    font-family:'Trebuchet MS';
+    font-size:12px;
+    font-weight:bold;
+    color:#333333;
+    padding-left:10px;
+    padding-top:60px;
+}
+
+#Anasayfa_alt{
+
+}
+#SonEklenenler{
+    float:left;
+    width:228px;
+}
+#AnasayfaReklam{
+    float:left;
+    width:490px;
+}
+#AnasayfaHit{
+    float:left;
+    width:250px;
+}
+.SonEklenenBaslik{
+    font-family:'Trebuchet MS';
+    font-weight:bold;
+    font-size:12px;
+    color:#CC0000;
+    text-align:center;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+
+.SonEklenen{
+    height:120px;
+    padding-bottom:5px;
+    border:medium inset #F0F0F0; 
+}
+
+.SonEklenenResim{
+    float:left;
+    width:90px;
+    padding-left:10px;
+    padding-bottom:5px;
+}
+.SonEklenenAyrinti{
+    float:left;
+    width:110px;
+}
+
+.SonAyrintiSatir{
+    font-family:'Trebuchet MS';
+    font-size:13px;
+    font-weight:bold;
+    color:#333333;
+    padding-left:15px;
+    padding-top:8px;
+}
+
+.SonAyrintiTarih{
+    font-family:'Trebuchet MS';
+    font-size:11px;
+    font-weight:bold;
+    color:#666666;
+    padding-left:50px;
+    padding-top:2px;
+}
+
+.Hit{
+    height:120px;
+    padding-bottom:5px;
+    border:medium outset #F0F0F0; 
+}
+
+.HitAyrinti{
+   width:140px;
+   float:left;
+}
+.HitAyrintiSatir{
+    font-family:'Trebuchet MS';
+    font-weight:bold;
+    font-size:13px;
+    color:#333333;
+    padding-top:5px;
+    padding-left:15px;
+
+}
+.HitAyrintiHit{
+    font-family:'Trebuchet MS';
+    font-weight:bold;
+    font-size:11px;
+    color:#666666;
+    padding-top:2px;
+    padding-left:35px;
+}
+
+.arama_Baslik{
+    font-family:'Trebuchet MS';
+    font-size:16px;
+    font-weight:bold;
+    color:#0033CC;
+    height:30px;
+    text-align:center;
+    width:470px;
+    padding-top:5px;
+    
+}
+
+.arama_alani{
+    width:470px;
+    height:300px;
+    background-image:url("../images/bg_arama_alani.jpg")
+
+}
+
+.arama_satir{
+    width:450px;
+    margin-left:10px;
+    margin-right:10px;
+    height:17px;
+    padding-top:7px;
+}
+
+.arama_sol{
+     width:180px;
+     height:35px;
+     float:left;
+     font-family:'Trebuchet MS';
+     font-size:12px;
+     font-weight:bold;
+     color:#333333;
+     padding-left:20px;
+
+}
+
+.arama_sag{
+    width:250px;
+    height:35px;
+    float:left;
+
+}

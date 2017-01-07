@@ -1,0 +1,528 @@
+﻿.satir1 {
+    width: 140px;
+    height: 25px;
+    font-family: 'Trebuchet MS';
+    color: #333333;
+    font-weight: bold;
+    float: left;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+
+.satir2 {
+    width: 300px;
+    height: 25px;
+    font-family: 'Trebuchet MS';
+    color: #333333;
+    font-weight: bold;
+    float: left;
+    padding-bottom: 10px;
+}
+
+.satir3 {
+    width: 200px;
+    height: 25px;
+    font-family: 'Trebuchet MS';
+    color: #333333;
+    font-weight: bold;
+    float: left;
+    padding-bottom: 10px;
+}
+
+.satir4 {
+    width: 300px;
+    height: 80px;
+    font-family: 'Trebuchet MS';
+    color: #333333;
+    font-weight: bold;
+    float: left;
+    padding-bottom: 10px;
+}
+
+#GirisYap {
+    font-family: 'Trebuchet MS';
+    font-weight: bold;
+    font-size: 16px;
+    color: #333333;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 280px;
+}
+
+.ilan_hata {
+    color: #790000;
+    font-family: 'Trebuchet MS';
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.water {
+    font-family: 'Trebuchet MS';
+    font-size: 12px;
+    color: #808080;
+}
+
+
+.ilan2_baslik {
+    font-family: 'Trebuchet MS';
+    font-size: 16px;
+    font-weight: bold;
+    color: #333333;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+}
+
+.ilan2_sol {
+    font-family: 'Trebuchet MS';
+    font-size: 12px;
+    font-weight: bold;
+    color: #333333;
+    padding-top: 3px;
+    padding-left: 10px;
+    padding-bottom: 3px;
+    float: left;
+    width: 150px;
+    height: 20px;
+}
+
+.ilan2_sag {
+    font-family: 'Trebuchet MS';
+    font-size: 12px;
+    font-weight: bold;
+    color: #333333;
+    padding-top: 3px;
+    padding-left: 10px;
+    padding-bottom: 3px;
+    float: left;
+    width: 250px;
+    height: 20px;
+}
+
+
+.AyrOzellik_Baslik {
+    font-family: 'Trebuchet MS';
+    font-size: 16px;
+    color: #0066FF;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+
+.AyrOzellik {
+    font-family: 'Trebuchet MS';
+    font-size: 12px;
+    padding-left: 10px;
+    padding-bottom: 30px;
+}
+
+.resim_baslik {
+    font-family: 'Trajan Pro';
+    font-size: 16px;
+    color: #006bff;
+    padding-top: 10px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.resim_sola {
+    float: left;
+    padding-left: 10px;
+}
+
+.Resim_baslik_2 {
+    font-family: 'Trajan Pro';
+    font-size: 14px;
+    color: #ff5454;
+    padding-top: 10px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+
+
+.myButton {
+    -moz-box-shadow: inset 0px 1px 0px 0px #dcecfb;
+    -webkit-box-shadow: inset 0px 1px 0px 0px #dcecfb;
+    box-shadow: inset 0px 1px 0px 0px #dcecfb;
+    background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #bddbfa), color-stop(1, #80b5ea) );
+    background: -moz-linear-gradient( center top, #bddbfa 5%, #80b5ea 100% );
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#bddbfa', endColorstr='#80b5ea');
+    background-color: #bddbfa;
+    -webkit-border-top-left-radius: 6px;
+    -moz-border-radius-topleft: 6px;
+    border-top-left-radius: 6px;
+    -webkit-border-top-right-radius: 6px;
+    -moz-border-radius-topright: 6px;
+    border-top-right-radius: 6px;
+    -webkit-border-bottom-right-radius: 6px;
+    -moz-border-radius-bottomright: 6px;
+    border-bottom-right-radius: 6px;
+    -webkit-border-bottom-left-radius: 6px;
+    -moz-border-radius-bottomleft: 6px;
+    border-bottom-left-radius: 6px;
+    text-indent: 0px;
+    border: 3px solid #84bbf3;
+    display: inline-block;
+    color: #fff;
+    font-family: Trebuchet MS;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: normal;
+    height: 26px;
+    line-height: 23px;
+    width: 103px;
+    text-decoration: none;
+    text-align: center;
+    text-shadow: 1px 1px 0px #0080ff;
+}
+
+    .myButton:hover {
+        background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #80b5ea), color-stop(1, #bddbfa) );
+        background: -moz-linear-gradient( center top, #80b5ea 5%, #bddbfa 100% );
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80b5ea', endColorstr='#bddbfa');
+        background-color: #80b5ea;
+    }
+
+    .myButton:active {
+        position: relative;
+        top: 1px;
+    }
+
+.ilan_tamam {
+    font-family: 'Trebuchet MS';
+    font-size: 16px;
+    font-weight: bold;
+    color: #333333;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-bottom: 270px;
+}
+
+.ilan_tamam_ad {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: #1593ff;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+#ilanlar_sol {
+    width: 160px;
+    height: auto;
+    float: left;
+}
+
+#ilanlar_sag {
+    width: 810px;
+    height: auto;
+    float: left;
+}
+
+.ilanlar_satir {
+    width: 810px;
+    height: 85px;
+}
+
+.ilanlar_satir_baslik {
+    width: 810px;
+    height: 30px;
+}
+
+.ilanlar_sayi {
+    float: left;
+    width: 30px;
+    font-family: 'Trebuchet MS';
+    color: #003399;
+    font-weight: bold;
+    font-size: 11px;
+    height: 85px;
+    padding-top: 30px;
+}
+
+.ilanlar_resim {
+    float: left;
+    height: 85px;
+    width: 90px;
+    font-family: 'Trebuchet MS';
+}
+
+.ilanlar_AltTur {
+    float: left;
+    height: 85px;
+    padding-top: 30px;
+    width: 75px;
+    font-family: 'Trebuchet MS';
+    color: #000;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.ilanlar_islem {
+    float: left;
+    height: 85px;
+    padding-top: 30px;
+    width: 80px;
+    font-family: 'Trebuchet MS';
+    color: #000;
+    font-size: 12px;
+}
+
+.ilanlar_baslik {
+    float: left;
+    height: 85px;
+    padding-top: 30px;
+    width: 275px;
+    font-family: 'Trebuchet MS';
+    color: #5b42ff;
+    font-size: 12px;
+}
+
+.ilanlar_fiyat {
+    float: left;
+    height: 85px;
+    padding-top: 30px;
+    width: 80px;
+    font-family: 'Trebuchet MS';
+    color: #ff5252;
+    font-size: 12px;
+}
+
+
+.ilanlar_tarih {
+    float: left;
+    height: 85px;
+    padding-top: 30px;
+    width: 80px;
+    font-family: 'Trebuchet MS';
+    color: #666666;
+    font-size: 9px;
+}
+
+.ilanlar_ilce {
+    float: left;
+    height: 85px;
+    padding-top: 30px;
+    width: 85px;
+    font-family: 'Trebuchet MS';
+    color: #000;
+    font-size: 12px;
+}
+
+
+
+
+.ilanlar_sayi2 {
+    float: left;
+    height: 85px;
+    width: 30px;
+    font-family: 'Trebuchet MS';
+    font-weight: bold;
+    color: #0066FF;
+    font-size: 13px;
+}
+
+.ilanlar_resim2 {
+    float: left;
+    height: 85px;
+    width: 90px;
+    font-size: 13px;
+    font-family: 'Trebuchet MS';
+    font-weight: bold;
+    color: #0066FF;
+}
+
+.ilanlar_AltTur2 {
+    float: left;
+    height: 85px;
+    width: 75px;
+    font-size: 13px;
+    font-family: 'Trebuchet MS';
+    font-weight: bold;
+    color: #0066FF;
+}
+
+.ilanlar_islem2 {
+    float: left;
+    height: 85px;
+    width: 80px;
+    font-size: 13px;
+    font-family: 'Trebuchet MS';
+    font-weight: bold;
+    color: #0066FF;
+}
+
+
+
+.ilanlar_baslik2 {
+    float: left;
+    height: 85px;
+    width: 275px;
+    font-size: 13px;
+    font-family: 'Trebuchet MS';
+    font-weight: bold;
+    color: #0066FF;
+}
+
+.ilanlar_fiyat2 {
+    float: left;
+    height: 85px;
+    width: 80px;
+    font-size: 13px;
+    font-family: 'Trebuchet MS';
+    font-weight: bold;
+    color: #0066FF;
+}
+
+
+.ilanlar_tarih2 {
+    float: left;
+    height: 85px;
+    width: 80px;
+    font-size: 13px;
+    font-family: 'Trebuchet MS';
+    font-weight: bold;
+    color: #0066FF;
+}
+
+.ilanlar_ilce2 {
+    float: left;
+    height: 85px;
+    width: 85px;
+    font-family: 'Trebuchet MS';
+    font-weight: bold;
+    color: #0066FF;
+    font-size: 13px;
+}
+
+
+.ilanlar_sol_baslik {
+    font-family: 'Trebuchet MS';
+    font-weight: bold;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 130px;
+    color: #0066FF;
+    height: 20px;
+}
+
+.ilanlar_sol_ddl {
+    width: 130px;
+    height: 25px;
+    font-family: 'Trebuchet MS';
+    font-size: 12px;
+    color: #0000FF;
+    padding-top: 5px;
+}
+
+#ilan_detay_ozellik {
+    width: 230px;
+    height: 540px;
+    float: left;
+    margin-left: 10px;
+}
+
+#ilan_detay_kul {
+    width: 170px;
+    height: 540px;
+    float: left;
+    margin-left: 10px;
+}
+
+#ilan_detay_gozellik {
+    width: 960px;
+    height: auto;
+    font-family: 'Trebuchet MS';
+    padding-left: 10px;
+    font-size: 13px;
+    color:#111111;
+}
+
+    #ilan_detay_gozellik p {
+        font-family: 'Trebuchet MS';
+        font-weight: bold;
+        font-size: 13px;
+        color: #6f6868;
+        text-align: center;
+        padding-top: 5px;
+    }
+
+    .ilan_coklu_ozellik{
+        width:970px;
+        height:auto;
+    }
+    .ilan_coklu_ozellik p{
+       font-family: 'Trebuchet MS';
+        font-weight: bold;
+        font-size: 13px;
+        color: #6f6868;
+        text-align: center;
+        padding-top: 5px;
+    }
+
+
+
+    .ilan_secenek{
+        width:auto;
+        height:25px;
+        margin-right:20px;
+        float:left;
+          font-family: 'Trebuchet MS';
+       color:#111111;
+        font-size: 13px;
+    }
+
+    .ilan_detay_fiyat{
+        width:230px;
+        font-size:16px;
+        font-family:'Trebuchet MS';
+        font-weight:bold;
+        color:#0066FF;
+        height:20px;
+        text-align:center;
+        padding-top:10px;
+    }
+
+    .ilan_detay_semt
+    {
+        width:230px;
+        font-size:12px;
+        font-family:'Trebuchet MS';
+        font-weight:bold;
+        color:#111111;
+        height:auto;
+        text-align:center;
+        padding-bottom:10px;
+        text-align:center;
+        
+    }
+
+    .ilan_detay_oz_sol{
+        font-family:'Trebuchet MS';
+        font-size:13px;
+        font-weight:bold;
+        width:100px;
+        height:30px;
+        color:#111111;
+        float:left;
+        padding-left:5px;
+    }
+    .ilan_detay_oz_sag{
+        font-family:'Trebuchet MS';
+        font-size:13px;
+        width:120px;
+        height:30px;
+        color:#111111;
+        float:left;
+        margin-left:5px;
+
+    }
