@@ -1,0 +1,132 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link href="Styles/stilim.css" rel="stylesheet" />
+    <link href="Styles/stil_ilanlar.css" rel="stylesheet" />
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <script type="text/javascript">
+        function MM_swapImgRestore() { //v3.0
+            var i, x, a = document.MM_sr; for (i = 0; a && i < a.length && (x = a[i]) && x.oSrc; i++) x.src = x.oSrc;
+        }
+        function MM_preloadImages() { //v3.0
+            var d = document; if (d.images) {
+                if (!d.MM_p) d.MM_p = new Array();
+                var i, j = d.MM_p.length, a = MM_preloadImages.arguments; for (i = 0; i < a.length; i++)
+                    if (a[i].indexOf("#") != 0) { d.MM_p[j] = new Image; d.MM_p[j++].src = a[i]; }
+            }
+        }
+
+        function MM_findObj(n, d) { //v4.01
+            var p, i, x; if (!d) d = document; if ((p = n.indexOf("?")) > 0 && parent.frames.length) {
+                d = parent.frames[n.substring(p + 1)].document; n = n.substring(0, p);
+            }
+            if (!(x = d[n]) && d.all) x = d.all[n]; for (i = 0; !x && i < d.forms.length; i++) x = d.forms[i][n];
+            for (i = 0; !x && d.layers && i < d.layers.length; i++) x = MM_findObj(n, d.layers[i].document);
+            if (!x && d.getElementById) x = d.getElementById(n); return x;
+        }
+
+        function MM_swapImage() { //v3.0
+            var i, j = 0, x, a = MM_swapImage.arguments; document.MM_sr = new Array; for (i = 0; i < (a.length - 2) ; i += 3)
+                if ((x = MM_findObj(a[i])) != null) { document.MM_sr[j++] = x; if (!x.oSrc) x.oSrc = x.src; x.src = a[i + 2]; }
+        }
+    </script>
+</head>
+<body onload="MM_preloadImages('images/icon_ev2.png','images/isyeri_icon2.png','images/arsa_icon2.png','images/hotel_icon2.png')">
+    <form id="form1" runat="server">
+        <div id="dis_alan">
+            <div id="banner">
+                <div class="banner_sol">
+                    <asp:ToolkitScriptManager ID="ToolkitScriptManager1" runat="server">
+                    </asp:ToolkitScriptManager>
+                </div>
+
+                <div class="banner_sag">
+                    <a href="UyeOl.aspx">
+                        <img style="margin-left: 15px; border: 0" src="images/kaydol_icon.png" /></a>
+
+                </div>
+            </div>
+
+            <div id="kullanici_alani">
+                <div id="logo"><a href="Default.aspx"></a></div>
+                <div id="kul_orta">
+                    <div id="orta_yazi">Mahmut Yıldız Bu sitenin Web Design ve Developer'ıdır.</div>
+                    <div id="orta_ekle">
+                        <a href="ilanEkle.aspx" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage(' ','','images/ilan2.png',1)">
+                            <img src="images/ilan.png" width="132" height="62" id="Image2" /></a>
+                    </div>
+                </div>
+                <div id="kul_sag">
+                    <asp:Panel ID="pnlKulGiris" runat="server">
+                        <div id="kul_giris">
+                            <div style="font-family: Arial, Helvetica, sans-serif; color: #D00068; font-weight: bold; text-align: center; font-size: 12px;">
+                                <asp:Label ID="lblGirisHata" runat="server"></asp:Label>
+                            </div>
+                            <div class="kul_satir">
+                                <div class="kul_sutun1">
+                                    Email:
+                                </div>
+                                <div class="kul_sutun2">
+                                    <asp:TextBox ID="txtEmail" runat="server" Width="150px"></asp:TextBox>
+                                </div>
+                            </div>
+                            <div class="kul_satir">
+                                <div class="kul_sutun1">
+                                    Şifre:
+                                </div>
+                                <div class="kul_sutun2">
+                                    <asp:TextBox ID="txtSifre" runat="server" TextMode="Password" Width="150px"></asp:TextBox>
+                                </div>
+                            </div>
+                            <div class="kul_satir">
+                                <div class="kul_sutun3">
+                                    <asp:CheckBox ID="chckHatirla" runat="server" Text="Beni Hatırla" />
+                                </div>
+                                <div class="kul_sutun2">
+                                    <asp:ImageButton ID="imgGiris" runat="server" ImageUrl="images/giris2.png" OnClick="imgGiris_Click" />
+                                </div>
+                            </div>
+                            <div class="kul_satir">
+                                <div style="padding-left: 155px">
+                                    <asp:LinkButton ID="lbUnuttum" runat="server" Font-Names="Arial" Font-Size="9pt" ForeColor="#0099FF" OnClick="lbUnuttum_Click">Şifremi Unuttum</asp:LinkButton>
+                                </div>
+                            </div>
+                        </div>
+                    </asp:Panel>
+                    <!--Kulgiris alanı bitti-->
+                    <asp:Panel ID="pnlKulBilgi" runat="server" Visible="False">
+
+                        <div id="kul_bilgi"></div>
+                        <div class="kul_satir">
+                            <div style="font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #0033CC; font-weight: bold; text-align: center;">
+                                Hoşgeldiniz
+                                <asp:Label ID="lblAdSoyad" runat="server" Text=""></asp:Label>&nbsp;-<asp:LinkButton ID="lbProfil" runat="server" OnClick="LinkButton1_Click">Profilim</asp:LinkButton>
+                            </div>
+                        </div>
+                        <div class="kul_satir">
+                            <asp:LinkButton ID="lbCikis" runat="server" Font-Bold="True" Font-Names="Arial" Font-Size="9pt" ForeColor="#0033CC" OnClick="lbCikis_Click">Güvenli Çıkış</asp:LinkButton>
+                        </div>
+                        <div class="kul_satir"></div>
+                        <div class="kul_satir"></div>
+                        <div class="kul_satir"></div>
+                    </asp:Panel>
+                </div>
+                <!--Kulsag alanı bitti-->
+
+            </div>
+            <!--Kullanıcı alanı bitti-->
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+            <div id="footer">Tüm Hakları Saklıdır</div>
+        </div>
+        <!--Dış Alan bitti-->
+    </form>
+</body>
+</html>
