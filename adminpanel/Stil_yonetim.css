@@ -1,0 +1,116 @@
+@charset "utf-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-color: #D5F5FF;
+}
+
+#dis_alan {
+    height: auto;
+    width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#dis_alan {
+    height: auto;
+    width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#banner {
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFF;
+    background-color: #232323;
+    text-align: center;
+    height: 40px;
+    width: 1000px;
+    padding-top: 10px;
+}
+
+#navigasyon {
+    height: 30px;
+    width: 1000px;
+    background-image: url(images/bg_navigasyon.PNG);
+}
+
+    #navigasyon #adsoyad {
+        height: 20px;
+        width: auto;
+        font-family: Verdana, Geneva, sans-serif;
+        font-size: 13px;
+        font-weight: bold;
+        margin-left: 50px;
+        padding-top: 5px;
+        float: left;
+        color: #33C;
+    }
+
+    #navigasyon #gorev {
+        font-family: Verdana, Geneva, sans-serif;
+        font-weight: bold;
+        color: #900;
+        padding: 5px;
+        height: 20px;
+        width: auto;
+        margin-left: 50px;
+        float: left;
+        font-size: 13px;
+    }
+
+#icerik_alani {
+    height: auto;
+    width: 1000px;
+}
+
+    #icerik_alani #butonlar {
+        float: left;
+        height: auto;
+        width: 250px;
+    }
+
+    #icerik_alani #icerik {
+        height: auto;
+        width: 750px;
+        float: left;
+        background-color:#e3e3e6;
+
+    }
+
+#butonlar ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+    #butonlar ul li {
+    }
+
+        #butonlar ul li a {
+            font-weight: bold;
+            text-decoration: none;
+            text-align: center;
+            display: block;
+            padding: 5px;
+            height: 25px;
+            width: 200px;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            margin-left: 25px;
+            background-image: url(images/bg_buton.PNG);
+            color: #FFF;
+        }
+
+            #butonlar ul li a:hover {
+                color: #535353;
+            }
+
+            .sayfaarkaplan{
+                background-color:gray;
+                filter:alpha(opacity=70);
+                opacity:0.7;
+            }
